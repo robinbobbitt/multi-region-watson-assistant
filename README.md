@@ -2,7 +2,7 @@
 
 This sample app demonstrates how to use the circuit breaker pattern to fail over Watson Assistant requests from one region to another.
 
-See [blog title](blog URL) for details.
+See [Building a multi-region IBM Watson Assistant application](https://medium.com/@robin.y.bobbitt/building-a-multi-region-ibm-watson-assistant-application-118463df5711) for details.
 
 
 # Running the app
