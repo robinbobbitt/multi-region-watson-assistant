@@ -1,0 +1,21 @@
+{
+    "watson_assistant": {
+        "instances": {
+            "primary":  {
+                "label": "dallas",
+                "skill_id": "<skill_id>",
+                "iam_apikey": "<api_key>",
+                "url": "<region_specific_api_url>"
+              },
+            "failover": {
+                "label": "washington",
+                "skill_id": "<skill_id>",
+                "iam_apikey": "<api_key>",
+                "url": "<region_specific_api_url>"
+            }
+        }
+    },
+    "circuit_breaker": {
+        "max_failures": 2
+    }
+}
